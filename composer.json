@@ -1,0 +1,19 @@
+{
+    "name": "mei/miniapp",
+    "description": "loading package for wechat small program",
+    "authors": [
+        {
+            "name": "meishixiang",
+            "email": "meishixiang@landawang.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Msx\\MiniApp\\": "src/"
+        }
+    }
+}
